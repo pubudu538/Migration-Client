@@ -39,7 +39,6 @@
             <fileMode>0600</fileMode>
             <includes>
                 <include>log4j.properties</include>
-                <include>config.properties</include>
             </includes>
         </fileSet>
         <fileSet>
@@ -47,7 +46,7 @@
             <outputDirectory>/</outputDirectory>
             <fileMode>0600</fileMode>
             <includes>
-                <include>Readme*</include>
+                <include>Readme.md</include>
             </includes>
         </fileSet>
     </fileSets>
