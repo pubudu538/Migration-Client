@@ -37,10 +37,10 @@ Above is the official migration client shipped by WSO2. This client uses some of
 
 `<Pack_Home>/bin/run.sh <repo_path> <options=TH,UR>`
 
-example: `<Pack_Home>/bin/run.sh /home/files options=TH,UR`
+example: `/home/migration-client/bin/run.sh /home/files options=TH,UR`
 
-TH = Run throttling migration
-UR = Run update request time property
-default = Run both throttling and update request migration.
+ - TH = Run throttling migration
+ - UR = Run update request time property
+ - default = Run both throttling and update request migration.
 
 Note: This can be run in nohup mode as well. Uncomment nohup mode and comment default mode.
